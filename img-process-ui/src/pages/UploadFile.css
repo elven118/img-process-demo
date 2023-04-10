@@ -1,0 +1,36 @@
+.upload-area {
+  border: 2px dashed;
+  height: 400px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto 10px auto;
+}
+
+.upload-area-active {
+  background-color: rgba(14, 110, 250, 0.2);
+}
+
+.upload-area header{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.upload-area span{
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.my-progress-bar {
+  margin: 0 10px;
+  flex: 1;
+}
+
+.bottom-func-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
